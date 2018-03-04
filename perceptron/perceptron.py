@@ -32,4 +32,12 @@ def perceptron_sgd(X, Y):
     return w, b
 
 
+def perceptron_sgd_2(X, Y):
+
+    # 1. get Gram matrix
+    # 2. alpha <- 0 and b <- 0
+    # 3. (x1, y1)
+    pass
+
+
 perceptron_sgd(X, y)
