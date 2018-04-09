@@ -21,8 +21,6 @@ class Perceptron:
         while True:
             count = 0
             for i in range(length):
-                print self.alpha * self.y
-                print self.gram[i]
                 y = np.dot(self.gram[i],
                            self.alpha * self.y) + self.b
 
