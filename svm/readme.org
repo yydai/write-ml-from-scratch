@@ -1,0 +1,11 @@
+* How to use
+
+You can run the plotSVM.py directly with
+
+#+BEGIN_SRC python
+python3 plotSVM.py
+#+END_SRC
+
+I write the svm using the smo algorithm in the svm.py file. And there
+are two version of svm with a simple one and more faster one with
+cache.
